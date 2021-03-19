@@ -4,7 +4,7 @@
 rabbitmq-plugins enable rabbitmq_management, 
 запускать это надо из папки с rabbitmq/sbin
 - После включения плагина станет доступен end-point: http://localhost:15672/
-- Создать нового пользователя с правами админа:
+- Создать нового пользователя с правам админа:
 
 rabbitmqctl add_user admin admin 
 
